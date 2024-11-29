@@ -7,7 +7,6 @@ from test_road import mock_warnings as road_mock_warnings
 def car():
     return Car()
 
-
 def test_car_default_speed(car):
     speed = car.get_speed()
     assert 105 <= speed <= 135
